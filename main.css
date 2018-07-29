@@ -1,0 +1,37 @@
+body {
+    position: relative;
+    height: auto;
+}
+
+section {
+    width: 400px;
+}
+
+header {
+   width: 1100px;
+   height: 200px;
+   background-color: black;
+}
+
+
+li{
+    border-style: solid;
+    text-decoration: black;
+    text-decoration-line: none;
+    margin: 1px;
+   
+    
+}
+
+@media screen and (max-width: 1000px) {
+
+    li {
+        display: inline-block;
+       
+    }
+    div.menu {
+        width: 1100px;
+        overflow: auto;
+       
+    }
+}
